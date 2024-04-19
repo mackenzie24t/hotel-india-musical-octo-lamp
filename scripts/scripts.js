@@ -102,7 +102,7 @@ $(document).ready(function (){
         console.log("button clicked: "); //TODO: find out who clicked me, w/this?
 
         $.ajax({
-            url: "scripts/profile.json",
+            url: "profile.json",
             dataType: "json",
             success: function (data) {
                 console.log(data.fname);
